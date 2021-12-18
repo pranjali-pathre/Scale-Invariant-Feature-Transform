@@ -11,8 +11,6 @@ We present a method for extracting distinctive invariant features from images th
 - Mid evaluation around 16-20th November
 - Final evaluation around 1-4th December -->
 
-# INITIAL PROJECT PROPOSAL
-
 # Distinctive Image Features from Scale-Invariant Keypoints
 
 
