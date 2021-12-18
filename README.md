@@ -11,9 +11,8 @@ We present a method for extracting distinctive invariant features from images th
 - Mid evaluation around 16-20th November
 - Final evaluation around 1-4th December -->
 
+##### Project done as a part of Statistical Methods in AI course, Monsoon 2021
 # Distinctive Image Features from Scale-Invariant Keypoints
-
-
 
 ##### **Project ID - 3 | Team name - Team Agile**
 
