@@ -29,7 +29,7 @@ Ayush Goyal (2019111026)
 
 Image matching is a fundamental aspect of many problems in computer vision, including object or scene recognition, solving for 3D structure from multiple images, stereo correspondence, and motion tracking.
 
-We present a method for extracting distinctive invariant features from images that can be used to perform reliable matching between different views of an object or scene. The obtained features are invariant to image scaling and rotation, partially invariant to illumination, well localized in spatial and frequency domains, and highly distinct which allows us to match features with high accuracy. The cost of extracting the features is reduced by using a cascade filtering approach.
+We impplement a method for extracting distinctive invariant features from images that can be used to perform reliable matching between different views of an object or scene. The obtained features are invariant to image scaling and rotation, partially invariant to illumination, well localized in spatial and frequency domains, and highly distinct which allows us to match features with high accuracy. The cost of extracting the features is reduced by using a cascade filtering approach.
 
 ### Goals and Approach
 
@@ -110,32 +110,8 @@ We plan to use the Caltech-256 dataset for the given task. It is an object recog
 5. A working implementation of the feature matching algorithm. (If time permits).
 6. Corresponding features extracted from images after applying feature matching algorithm. (If time permits).
 
-
-### Milestones and Timeline
-
-| Timeline |  |Milestones  |
-| --- | --- | --- |
-| 26 Oct - 7 Nov | Week 0 | Project allocation and project proposal submission, discussions, and initial project layout |
-| 7 Nov - 14 Nov | Week 1 | Paper and relevant work reading, Implementing Scale Space and Image Pyramids |
-| 14 Nov - 21 Nov | Week 2 | Finding Scale Space Extrema, Mid evaluation, Implementing Keypoint Orientations, Cleaning Up Keypoints.  |
-| 21 Nov - 28 Nov | Week 3 | Generating Descriptors, Implementing applications:  Template Matching, Comparison with other algorithms |
-| 29 Nov - 30 Nov | Week 3+ | Compiling results, Finishing steps and Submission |
-| 1 Dec - 4 Dec | |Final evaluation |
-
-### Work distribution
-| Name | Work |
-| --- | --- |
-|Samruddhi|Implementing Scale Space, Finding Scale Space Extrema, Generating Descriptors, Comparison with other algorithms (ORB/SURF).|
-|Pranjali|Implementing Scale Space, Implementing Keypoint Orientations, Cleaning Up Keypoints, Template Matching.|
-|Anandhini|Implementing Image Pyramid, Finding Scale Space Extrema, Generating Descriptors, Template Matching.|
-|Ayush|Implementing Image Pyramid, Implementing Keypoint Orientations, Cleaning Up Keypoints, Comparison with other algorithms (Harris Corner Detection).|
- 
 ### References
 
 Lowe, D.G. Distinctive Image Features from Scale-Invariant Keypoints. International Journal of Computer Vision 60, 91–110 (2004). [https://doi.org/10.1023/B:VISI.0000029664.99615.94](https://doi.org/10.1023/B:VISI.0000029664.99615.94)
-
-SIFT - 5 Minutes with Cyrill, Youtube. Uploaded by Cyrill Stachniss, 15 Sept 2020
-
-[https://www.youtube.com/watch?v=4AvTMVD9ig0&amp;list=PLgnQpQtFTOGSO8HC48K9sPuNliY1qxzV9&amp;index=20](https://www.youtube.com/watch?v=4AvTMVD9ig0&amp;list=PLgnQpQtFTOGSO8HC48K9sPuNliY1qxzV9&amp;index=20)
 
 Cao, L., Liao, D., &amp; Xue, B. D. (2014). Reference Point-Based SIFT Feature Matching. In Applied Mechanics and Materials (Vols. 543–547, pp. 2670–2673). Trans Tech Publications, Ltd. [https://doi.org/10.4028/www.scientific.net/amm.543-547.2670](https://doi.org/10.4028/www.scientific.net/amm.543-547.2670)
