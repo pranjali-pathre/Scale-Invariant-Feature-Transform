@@ -99,7 +99,7 @@ For each keypoint, a descriptor is created using the key points in the neighbour
 
 ### Dataset
 
-We plan to use the Caltech-256 dataset for the given task. It is an object recognition dataset containing 30,607 real-world images, of different sizes, spanning 257 classes (256 object classes and an additional clutter class). Each class is represented by at least 80 images.
+We use the Caltech-256 dataset for the given task. It is an object recognition dataset containing 30,607 real-world images, of different sizes, spanning 257 classes (256 object classes and an additional clutter class). Each class is represented by at least 80 images.
 
 ### Deliverables
 
